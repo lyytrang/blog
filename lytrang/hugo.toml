@@ -1,39 +1,44 @@
-baseURL = "https://lytrang.github.io/"
+baseURL = "https://lyytrang.github.io/"
 languageCode = "en-us"
-title = "Ly Trang"
+title = "Lý Trang"
 theme = "hugo-digital-garden-theme"
-copyright = "Nigalya Ponya ©"
+copyright = "Lý Trang ©"
+
 
 [params]
-  name = "Nigalya Ponya"
-  description = "Red panda living in the eastern Himalayas."
-  initials = "NP"
+  name = "Lý Trang"
+  description = "Small bunny-musician."
+  initials = "Lý Trang"
   googleAnalytics = ""
 
   [[params.social]]
-    name = "Twitter"
-    link = "#"
-    icon = "fab fa-twitter"
+    name = "YouTube" 
+    link = "https://www.youtube.com/channel/UC5DZPuSIH_vxbBpOtXRSfXQ"
+    icon = "fab fa-youtube"
 
   [[params.social]]
-    name = "Github"
-    link = "#"
-    icon = "fab fa-github"
+    name = "Instagram"
+    link = "https://instagram.com/ly__trang"
+    icon = "fab fa-instagram"
 
   [[params.social]]
-    name = "Medium" 
-    link = "#"
-    icon = "fab fa-medium-m"
+    name = "Facebook"
+    link = "https://www.facebook.com/profile.php?id=100080262098932&mibextid=ZbWKwL"
+    icon = "fab fa-facebook"
 
   [[params.social]]
-    name = "LinkedIn"
-    link = "#"
-    icon = "fab fa-linkedin-in"
+    name = "Bandcamp"
+    link = "https://lytrang.bandcamp.com/music"
+    icon = "fab fa-bandcamp"
 
+  [[params.social]]
+    name = "Email"
+    link = "mailto:trang.lyha@gmail.com"
+    icon = "fas fa-envelope-square"
 
 [menu]
   [[menu.main]]
-    name = "Digital Garden"
+    name = "Music"
     url = "/garden/"
     weight = 1
   [[menu.main]]
@@ -41,7 +46,7 @@ copyright = "Nigalya Ponya ©"
     url = "/projects/"
     weight = 2
   [[menu.main]]
-    name = "Library"
+    name = "Sound Installations"
     url = "/library/"
     weight = 3
   [[menu.main]]
@@ -51,9 +56,9 @@ copyright = "Nigalya Ponya ©"
 
 
 [taxonomies]
-  garden_tags = 'garden_tags'
+  music_tags = 'music_tags'
   project_tags = 'project_tags'
-  library_tags = 'library_tags'
+  artwork_tags = 'artwork_tags'
 
 
 [markup]

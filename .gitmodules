@@ -1,0 +1,4 @@
+[submodule "lytrang/public"]
+	path = lytrang/public
+	url = git@github.com:lyytrang/lytrang.github.io.git
+	branch = main
